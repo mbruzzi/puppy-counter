@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ma Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700&family=Montserrat:wght@200;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Puppy counter:</h1>
+        <h2 id="count-el">0</h2>
+        <button type="button" id="increment-btn" onclick="increment()">Increment</button>
+        <button type="button" id="decrement-btn" onclick="decrement()">Decrement</button>
+        <button type="submit" id="save-btn" onclick="save()">Save</button>
+        <div class="previous-entries">
+            <p>Previous entries: <span id="save-el"></span></p>
+        </div>
+        <div class="bg-image"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
